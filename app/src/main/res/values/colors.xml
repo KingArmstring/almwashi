@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="colorPrimary">@color/carminepink</color>
+    <color name="colorPrimaryDark">@color/firebrick</color>
+    <color name="colorAccent">@color/white</color>
+
+    <color name="manatee">#9b9b9b</color>
+    <color name="outerspace">#4a4a4a</color>
+    <color name="firebrick">#ae2322</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="firebrick_1">#ad2221</color>
+    <color name="timberwolf">#d8d8d8</color>
+    <color name="onyx">#0f0f0f</color>
+    <color name="mediumjunglegreen">#303132</color>
+    <color name="darkjunglegreen">#231f20</color>
+    <color name="platinum">#e6e9ed</color>
+    <color name="lavendergray">#c7c7c7</color>
+    <color name="mediumelectricblue">#014e8d</color>
+    <color name="darkjunglegreen_1">#232323</color>
+    <color name="uscgold">#ffce00</color>
+    <color name="uclagold">#ffb100</color>
+    <color name="outerspace_1">#414042</color>
+    <color name="mustard">#ffe454</color>
+    <color name="whitesmoke">#f4f4f4</color>
+    <color name="carminepink">#ea4f4f</color>
+    <color name="manatee_1">#979797</color>
+</resources>
+

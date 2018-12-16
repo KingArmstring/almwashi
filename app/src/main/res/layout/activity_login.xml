@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:background="@color/timberwolf">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingEnd="36dp"
+        android:paddingStart="36dp">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="178dp"
+            android:layout_height="56dp"
+            android:layout_marginBottom="70dp"
+            android:layout_marginTop="50dp"
+            app:srcCompat="@drawable/ic_application" />
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/et_email"
+            style="@style/auth_inputs_style"
+            android:layout_width="match_parent"
+            android:layout_height="50.0dp"
+            android:layout_marginBottom="16dp"
+            android:hint="@string/promote_email"
+            android:inputType="textEmailAddress"
+            tools:text="ajkshkjdahsdhkjashdkjahskhdahskdhakshdkjhakjshdjkahskjdhkjahskdjhakjshdhaksjhdkjhaskjhdkjahskjdhakjhsdkjashdkjhaksjhdkjahsd" />
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/et_password"
+            style="@style/auth_inputs_style"
+            android:layout_width="match_parent"
+            android:layout_height="50.0dp"
+            android:layout_marginBottom="20dp"
+            android:hint="@string/promote_password"
+            android:inputType="textPassword"
+            tools:text="sdfhsjkdhfjksdhjfkhsdjfhsjkhfjkshdlkjfhskjldhfjkshdfkjhsdkjfhkjsdhfjkhskjdfhjkshdfjkhskdjfh" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:text="@string/action_login"
+            style="@style/active_button" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_forget_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="@string/action_forget_password"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/manatee"
+            android:textSize="14.0sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="@color/manatee" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="6dp"
+                android:layout_marginStart="6dp"
+                android:text="@string/label_or"
+                android:textColor="@color/firebrick"
+                android:textSize="12.0sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="@color/manatee" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_continue_as_guest"
+                android:layout_width="0dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:text="@string/action_continue_as_a_guest"
+                style="@style/active_button" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_sign_up"
+                android:layout_width="0dp"
+                android:layout_height="38.0dp"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_holo_red_border"
+                android:text="@string/action_sign_up"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="14.0sp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

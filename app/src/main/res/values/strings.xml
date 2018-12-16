@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">AlMawashi</string>
+    <string name="label_language_arabic">Arabic</string>
+    <string name="label_language_english">English</string>
+    <string name="title_categories">Categories</string>
+    <string name="email">Email</string>
+    <string name="action_login">Get Started</string>
+    <string name="promote_email">Email</string>
+    <string name="promote_password">Password</string>
+    <string name="action_forget_password">Forget Password</string>
+    <string name="action_continue_as_a_guest">Continue as a guest</string>
+    <string name="action_sign_up">Sign Up</string>
+    <string name="label_or">or</string>
+    <string name="error_email_required">Email is required</string>
+    <string name="error_email_invalid">Invalid Email</string>
+    <string name="error_password_required">Password is required</string>
+    <string name="error_email_or_password_are_invalid">Email or Password are invalid</string>
+    <string name="delivery_date_hint">Delivery Date</string>
+    <string name="delivery_location_hint">Delivery Location</string>
+    <string name="btn_add_to_basket">Add To Basket</string>
+    <string name="tv_final_price">Total: 85 AED</string>
+    <string name="error_unexpected_error_happened">Unexpected Error Happened</string>
+    <string name="live_stoke_market">live stoke market</string>
+    <string name="animal_name">Animal Name</string>
+    <string name="weight">Weight</string>
+    <string name="kg">KG</string>
+    <string name="price">Price</string>
+    <string name="dynamic_val">dynamic val</string>
+    <string name="kwd">KWD</string>
+    <string name="place_holder">Place Holder</string>
+    <string name="btn_re_order">Re Order</string>
+    <string name="order_number">order number</string>
+    <string name="bills_placeholder">Bills Placeholder</string>
+    <string name="date_placeholder">date placeholder</string>
+    <string name="buy">Buy</string>
+    <string name="my_orders_list">My Orders</string>
+</resources>
+
